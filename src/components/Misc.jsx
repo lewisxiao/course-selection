@@ -14,7 +14,7 @@ class Misc extends React.Component {
     };
   }
 
-  getData() {
+  getData = () => {
     // fetch(MISC_URL)
     //   .then((response) => {
     //     return response.text();
@@ -35,7 +35,7 @@ class Misc extends React.Component {
   render() {
     return (
       <div id="misc">
-        <Button type="primary" onClick={ () => this.getData() }>Click me</Button>
+        <Button type="primary" onClick={ this.getData }>Click me</Button>
         <div className="user-detail">{ this.state.users }</div>
       </div>
     );

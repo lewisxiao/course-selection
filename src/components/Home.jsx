@@ -23,6 +23,9 @@ class Home extends React.Component {
         <Button>
           <Link to="menu">菜单</Link>
         </Button>
+        <Button>
+          <Link to="teacherList">教师列表</Link>
+        </Button>
       </div>
     );
   }
