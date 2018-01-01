@@ -1,0 +1,1 @@
+export const MISC_URL = 'http://jsonplaceholder.typicode.com/users';
